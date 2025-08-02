@@ -1,7 +1,7 @@
 
 /* 1 HEADER section  */
 
-*{border-radius: 5px;}
+*{border-radius: 10px;}
 body{
     display: flex;
     flex-direction: column;
@@ -128,5 +128,44 @@ h1{
     font-size: 25px;
     font-weight: bold;
 }
+
+
+
+/* 3 SINGUP section  */
+
+.signup{
+   
+    display: flex;
+    padding: 100px 250px;
+    justify-content: center;
+}
+
+.signupbox{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 20px;
+    background-color: #3f3fdd;
+    min-width: 600px;
+    min-height: 100px;
+    padding: 50px;
+    padding-left: 100px;
+    flex: 1 1 auto;
+}
+
+.signupbox button{
+
+    align-self: self-end;
+    margin-top: -60px;
+    background-color: #3f3fdd;
+    border: solid 2px white;
+}
+
+.signupbox p{
+    flex: 1;
+    margin-top: -10px;
+}
+
 
 
