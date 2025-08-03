@@ -20,7 +20,7 @@ body{
 }
 
 button{
-    background-color: rgb(17, 5, 126);
+    background-color: #11057e;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -166,5 +166,18 @@ h1{
 }
 
 
+.footer{
+    display: flex;
+    background-color:#11057e;
+    border: 2px solid black;
+    flex: 1;
+    padding: 30px;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.footer p{
+    font-size: 25px;
+}
 
 
