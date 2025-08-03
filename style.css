@@ -1,7 +1,10 @@
 
 /* 1 HEADER section  */
 
-*{border-radius: 10px;}
+*{
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -158,12 +161,16 @@ h1{
     background-color: #3f3fdd;
     border: solid 4px white;
     align-self: center;
+    font-size: 20px;
     flex: 1;
 }
 
 .signup-text{
     flex: 8;
 }
+
+
+/* FOOTER*/
 
 
 .footer{
@@ -179,5 +186,6 @@ h1{
 .footer p{
     font-size: 25px;
 }
+
 
 
